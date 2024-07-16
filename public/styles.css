@@ -121,6 +121,7 @@ body {
 }
 
 .font-body2 {
+    padding-top: 10px;
     font-size: 12px;
     line-height: 18px;
 }
@@ -463,6 +464,12 @@ button::-moz-focus-inner {
     border: 0;
 }
 
+#cRID {
+    padding: 16px 24px;
+    border-radius: 16px;
+    background: var(--primary-color);
+    color: white;
+}
 
 /* Icon Button */
 
@@ -495,6 +502,11 @@ button::-moz-focus-inner {
     min-height: 40px;
     line-height: 16px;
     max-height: 300px;
+}
+
+.textarea:focus {
+    color: brown;
+    background: white;
 }
 
 
